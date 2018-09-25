@@ -33,5 +33,23 @@ public class SubjectResource {
 }
 ```
 
+## Install
+* maven
+```
+<dependencies>
+    <dependency>
+        <groupId>miyakawalab.tool</groupId>
+        <artifactId>jersey-core</artifactId>
+        <version>${version}</version>
+    </dependency>
+</dependencies>
+<repositories>
+    <repository>
+        <id>mongodb-dao</id>
+        <url>https://raw.github.com/908ab/jersey-core/mvn-repo/</url>
+    </repository>
+</repositories>
+```
+
 ## Version
 > 1.0
